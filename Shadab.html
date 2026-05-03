@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrimonial Profile | Mohd Shadab Khan</title>
+    <style>
+        :root {
+            --primary-green: #064e3b;
+            --light-green: #ecfdf5;
+            --gold: #b45309;
+            --text-dark: #1f2937;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--light-green);
+            color: var(--text-dark);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary-green);
+            color: var(--white);
+            text-align: center;
+            padding: 3rem 1rem;
+            border-bottom: 5px solid var(--gold);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: -40px auto 40px auto;
+            background: var(--white);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .section {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            color: var(--primary-green);
+            display: flex;
+            align-items: center;
+            border-left: 4px solid var(--gold);
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .info-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .label {
+            font-weight: bold;
+            color: var(--gold);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+        }
+
+        .value {
+            font-size: 1.1rem;
+        }
+
+        .expectations-box {
+            background-color: var(--light-green);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid var(--primary-green);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #6b7280;
+        }
+
+        @media (max-width: 600px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            .container {
+                margin: 10px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mohd Shadab Khan</h1>
+        <p>"And He has placed between you affection and mercy"</p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>Personal Details</h2>
+            <div class="grid">
+                <div class="info-item">
+                    <span class="label">Date of Birth</span>
+                    <span class="value">19th July 1999 (26 Years)</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Height</span>
+                    <span class="value">5'11"</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Religion</span>
+                    <span class="value">Sunni Muslim (Ahlus-Sunnah Wal-Jamaat)</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Location</span>
+                    <span class="value">Delhi (Native: Gaya, Bihar)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Professional Life</h2>
+            <div class="info-item" style="margin-bottom: 15px;">
+                <span class="label">Education</span>
+                <span class="value">B.A. Hindi Journalism (DU) | Pursuing Masters in Journalism & Digital Media</span>
+            </div>
+            <div class="info-item">
+                <span class="label">Current Occupation</span>
+                <span class="value">Sub-Editor (Consultant) at United News of India</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Family Background</h2>
+            <div class="grid">
+                <div class="info-item">
+                    <span class="label">Father</span>
+                    <span class="value">Mr. Mohammed Sikander Khan (Pattern Master)</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Mother</span>
+                    <span class="value">Mrs. Nurun Nisha (Housewife)</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Siblings</span>
+                    <span class="value">One Elder Sister (Married)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Partner Expectations</h2>
+            <div class="expectations-box">
+                <ul>
+                    <li>Firm understanding of <b>Tawheed</b> and practices according to <b>Ahlus-Sunnah Wal-Jamaat</b>.</li>
+                    <li>Observes regular <b>Pardah</b> and is punctual in <b>five daily prayers</b>.</li>
+                    <li>Proficient in reading the <b>Holy Quran</b>.</li>
+                    <li>A person who values family ethics and religious growth.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        Seeking a blessed union for the sake of Allah.
+    </div>
+
+</body>
+</html>
